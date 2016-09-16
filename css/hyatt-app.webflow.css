@@ -1,0 +1,671 @@
+body {
+  font-family: Montserrat, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+h1 {
+  display: block;
+  margin: 0px 0px 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #0c74ca;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 10px 0px 23px;
+  font-family: Montserrat, sans-serif;
+  color: #745785;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #a1a1a1;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.button {
+  display: inline-block;
+  width: 150px;
+  height: 48px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 18px 21px;
+  border-radius: 5px;
+  background-color: transparent;
+  background-image: url('../images/itunes-button.png');
+  background-size: 150px;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.button.app-button {
+  width: 228px;
+  height: 70px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 8px 17px;
+  background-image: url('../images/google-store-image.png');
+  background-size: 228px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.button.itunes {
+  margin-top: 20px;
+  background-image: url('../images/google-button.png');
+}
+
+.button.itunes:hover {
+  background-color: transparent;
+}
+
+.section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  border-bottom: 1px solid rgba(0, 0, 0, .09);
+}
+
+.section.hero {
+  height: 500px;
+  padding-bottom: 0px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .61), rgba(0, 0, 0, .61)), url('../images/grandhyattkauairesortandspa.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .61), rgba(0, 0, 0, .61)), url('../images/grandhyattkauairesortandspa.jpg');
+  background-position: 0px 0px, 101% 55%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.section.white.subfooter {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.section.grey {
+  padding-top: 45px;
+  background-color: #f5f6f7;
+}
+
+.section.grey.footer {
+  padding-top: 49px;
+  padding-bottom: 49px;
+  text-align: center;
+}
+
+.section.purple {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #488bbf;
+}
+
+.hero-iphone {
+  display: block;
+  margin-right: auto;
+  margin-bottom: -53px;
+  margin-left: auto;
+  text-shadow: 0 0 0 #000;
+}
+
+.app-name {
+  width: auto;
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #00a79d;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+
+.app-name.sm {
+  font-weight: 600;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-right: 12px;
+  margin-left: 12px;
+  border-bottom: 1px none transparent;
+  opacity: 1;
+  -webkit-transition-property: none;
+  transition-property: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #0c74ca;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent transparent #00a79d;
+}
+
+.nav-column {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.hero-header {
+  margin-top: 40px;
+  margin-bottom: 19px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 42px;
+  text-shadow: 2px -1px 6px rgba(0, 0, 0, .33);
+}
+
+.hero-subtitle {
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: hsla(0, 0%, 100%, .83);
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .42);
+}
+
+.icon-title {
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-family: Bitter, serif;
+  color: #c1adcc;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.price-text {
+  margin-top: 11px;
+  background-image: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 400;
+  text-shadow: none;
+}
+
+.logo-in-footer {
+  display: block;
+  margin-top: 22px;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: 0 0 0 #000;
+}
+
+.left-column {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-left: 1px solid rgba(0, 0, 0, .09);
+}
+
+.subfooter-right {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-right: 1px solid rgba(0, 0, 0, .09);
+  border-left: 1px solid rgba(0, 0, 0, .09);
+}
+
+.social-button {
+  width: 36px;
+  height: 36px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 7px;
+  border-radius: 60px;
+  background-color: #00a79d;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+.social-button:hover {
+  background-color: #00736b;
+}
+
+.blog-link {
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Bitter, serif;
+  color: #fa875b;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.blog-link:hover {
+  color: #ff5917;
+}
+
+.footer-link {
+  margin-left: 8px;
+  border-bottom: 1px solid rgba(131, 125, 153, .34);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Bitter, serif;
+  color: #837d99;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  border-bottom: 1px solid rgba(131, 125, 153, .86);
+}
+
+.footer-text {
+  display: inline;
+}
+
+.center {
+  text-align: center;
+}
+
+.navbar {
+  overflow: visible;
+  padding-top: 39px;
+  padding-bottom: 15px;
+}
+
+.social-widget {
+  display: inline-block;
+  margin-top: 17px;
+  margin-right: 14px;
+}
+
+.text-link {
+  color: #745785;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.button-block {
+  margin-top: 17px;
+}
+
+.logo {
+  margin-top: -30px;
+  margin-right: 12px;
+  float: left;
+}
+
+.tagline {
+  position: static;
+  overflow: visible;
+  width: 510px;
+  margin-top: -38px;
+  margin-left: -135px;
+  font-family: 'Open Sans', sans-serif;
+  color: #00a79d;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.buttonbox {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  display: block;
+  overflow: visible;
+  height: 100%;
+}
+
+.h11 {
+  margin-top: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.dropdowntablet {
+  display: none;
+}
+
+.callout {
+  margin-top: 25px;
+  font-family: Lato, sans-serif;
+  color: #488bbf;
+  font-size: 24px;
+  line-height: 32px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.list-item {
+  font-size: 14px;
+}
+
+.paragraph {
+  color: #636363;
+}
+
+.paragraph.features {
+  margin-top: 50px;
+}
+
+.list {
+  margin-top: 11px;
+}
+
+.features-list {
+  margin-top: 15px;
+  padding-right: 10px;
+  color: #488bbf;
+  text-align: left;
+}
+
+.h2-features {
+  padding-left: 0px;
+  color: #0c74ca;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.h2-features.features {
+  padding-left: 12px;
+}
+
+.loop-image {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.feature-title {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .section.hero {
+    margin-top: 0px;
+    padding-top: 34px;
+    padding-bottom: 1px;
+  }
+  .hero-iphone {
+    text-shadow: #000 0px 0px 0px;
+  }
+  .app-name {
+    position: static;
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .nav-column {
+    position: static;
+    display: none;
+    margin-top: 0px;
+  }
+  .hero-header {
+    font-size: 38px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+  }
+  .hero-subtitle {
+    text-shadow: rgba(0, 0, 0, .2) 0px 2px 0px;
+  }
+  .navbar {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .logo {
+    display: inline-block;
+    margin-left: 315px;
+  }
+  .tagline {
+    position: static;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    float: none;
+    clear: none;
+    text-align: center;
+    list-style-type: none;
+  }
+  .h11 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .dropdowntablet {
+    display: block;
+    margin-top: 55px;
+    background-color: #00a79d;
+  }
+  .dropdowntabletlink {
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+  .dropdowntabletlink:hover {
+    background-color: #00736b;
+    color: #fff;
+  }
+  .dropdowninside {
+    background-color: #00a79d;
+  }
+  .hamburger.w--open {
+    background-color: #00a79d;
+  }
+  .h2-features.features {
+    line-height: 36px;
+  }
+  .loop-image {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    margin-top: 0px;
+  }
+  .section {
+    margin-top: 0px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    text-align: center;
+  }
+  .section.hero {
+    height: 1000px;
+    padding-right: 38px;
+    padding-bottom: 52px;
+    padding-left: 38px;
+    background-position: 93% 58%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+  }
+  .section.grey {
+    margin-top: 0px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .hero-iphone {
+    margin-bottom: 1px;
+    text-shadow: 0 0 0 #000;
+  }
+  .app-name {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .nav-column {
+    padding-top: 22px;
+    text-align: center;
+  }
+  .hero-header {
+    margin-top: 30px;
+    text-align: left;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+  }
+  .hero-subtitle {
+    text-align: left;
+  }
+  .price-text {
+    margin-bottom: 31px;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .subfooter-right {
+    border-top: 1px solid rgba(0, 0, 0, .09);
+  }
+  .center {
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+  .navbar {
+    padding-top: 24px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .social-widget {
+    margin-right: 11px;
+    margin-left: 11px;
+  }
+  .logo {
+    display: inline-block;
+    margin-top: -6px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: none;
+  }
+  .tagline {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .landscapelayout {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+  }
+  .callout {
+    text-align: left;
+  }
+  .paragraph {
+    text-align: left;
+  }
+  .paragraph.features {
+    text-align: left;
+  }
+  .list {
+    text-align: left;
+  }
+  .h2-features {
+    line-height: 36px;
+  }
+  .content {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+@media (max-width: 479px) {
+  h3 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .section {
+    text-align: center;
+  }
+  .section.hero {
+    height: 1000px;
+  }
+  .section.white {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .section.grey {
+    margin-top: 0px;
+  }
+  .hero-iphone {
+    text-shadow: 0 0 0 #000;
+  }
+  .hero-header {
+    font-size: 32px;
+    text-align: left;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+  }
+  .hero-subtitle {
+    text-align: left;
+  }
+  .price-text {
+    font-size: 23px;
+  }
+  .h11 {
+    padding-bottom: 10px;
+  }
+  .h2-features {
+    padding-left: 0px;
+    font-size: 28px;
+  }
+}
+
